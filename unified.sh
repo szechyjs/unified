@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p /usr/local/unified
 for dep in "$@"
 do
     name=${dep%:*}
