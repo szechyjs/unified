@@ -8,5 +8,6 @@ do
         --ignore=CHANGES --ignore=INSTALL_RECEIPT.json \
         --ignore=ChangeLog --ignore=AUTHORS \
         --ignore=ChangeLog.md --ignore=TODO \
+        --ignore=NEWS \
         -d /usr/local/Cellar/$name $version
 done
